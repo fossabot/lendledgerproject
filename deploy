@@ -1,4 +1,4 @@
--#!/bin/sh      
+-#!/bin/bash      
 ssh -t -t cateina@54.186.214.215 <<EOF        
  cd /home/ubuntu/lendledger/key-pair-generator  
  git pull       
