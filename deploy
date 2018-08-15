@@ -1,6 +1,6 @@
 -#!/bin/dash      
-ssh -t -t cateina@54.186.214.215 <<EOF        
- cd /home/ubuntu/lendledger/key-pair-generator  
+ssh -t -t ubuntu@54.186.214.215 <<EOF        
+ cd /home/ubuntu/lendledgertest/lendledgerproject
  git pull       
  npm install --production       
  pm2 restart all
