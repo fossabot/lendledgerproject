@@ -1,0 +1,8 @@
+-#!/bin/sh      
+ssh cateina@54.186.214.215 <<EOF        
+ cd /home/ubuntu/lendledger/key-pair-generator  
+ git pull       
+ npm install --production       
+ pm2 restart all
+ exit       
+EOF
