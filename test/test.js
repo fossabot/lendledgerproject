@@ -23,7 +23,7 @@ describe('Create keypair', () => {
     it('it should get the KeyPair', (done) => {
   
       chai.request(server)
-          .post('/api/create')
+          .get('/api/create')
           .end((err, res) => {
             res.body.should.have.property('accountSeed');
             res.body.should.have.property('accountId');

@@ -16,7 +16,7 @@ var port = process.env.PORT || config.port;             // set our port
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-router.post('/create', create);
+router.get('/create', create);
 
 module.exports = router;
 
