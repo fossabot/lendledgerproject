@@ -3,7 +3,7 @@ ssh -t -t ubuntu@54.186.214.215 <<EOF
  cd /home/ubuntu/lendledgertest/lendledgerproject
  git pull       
  npm install
- ./scripts/serverstart
+ ./scripts/serverstart.sh
  ./scripts/test
  pm2 start key-pair-generator.js
  exit       
