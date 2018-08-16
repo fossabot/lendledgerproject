@@ -5,7 +5,7 @@
   "main": "key-pair-generator.js",
   "scripts": {
     "test": "mocha --timeout 100000",
-    "start": "key-pair-generator.js"
+    "start": "node key-pair-generator.js"
   },
   "dependencies": {
     "bcrypt-nodejs": "latest",
