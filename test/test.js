@@ -3,7 +3,7 @@
  * @version:1.0.0
  * @since:10-Aug-2018
 */
-var key-pair-generator = require('./../key-pair-generator')
+var server = require('./../key-pair-generator')
 var assert = require('assert');
 var chai = require('chai');
 var chaiHttp = require('chai-http');
@@ -22,7 +22,7 @@ chai.use(chaiHttp);
 describe('Create keypair', () => {
     it('it should get the KeyPair', (done) => {
   
-      chai.request(key-pair-generator)
+      chai.request(server)
           .post('/api/create')
           .end((err, res) => {
             res.body.should.have.property('accountSeed');
