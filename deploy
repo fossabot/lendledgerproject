@@ -1,10 +1,10 @@
 -#!/bin/dash      
 ssh -t -t ubuntu@54.186.214.215 <<EOF        
- cd /home/ubuntu/lendledgertest/lendledgerproject
- git pull       
- npm install --production       
  pm2 stop key-pair-generator 
  pm2 delete key-pair-generator
- pm2 start key-pair-generator
+ cd /home/ubuntu/lendledgertest/lendledgerproject
+ git pull       
+ npm install --production   
+ pm2 start key-pair-generator.js
  exit       
 EOF
