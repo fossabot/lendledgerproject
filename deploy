@@ -3,6 +3,6 @@ ssh -t -t ubuntu@54.186.214.215 <<EOF
  cd /home/ubuntu/lendledgertest/lendledgerproject
  git pull       
  npm install --production       
- pm2 restart all
+ pm2 restart key-pair-generator
  exit       
 EOF
