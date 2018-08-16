@@ -1,2 +1,0 @@
-pm2 stop key-pair-generator 
-pm2 delete key-pair-generator
