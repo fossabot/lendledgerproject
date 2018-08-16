@@ -2,10 +2,10 @@
   "name": "GenKeys",
   "version": "1.0.0",
   "description": "test",
-  "main": "server.js",
+  "main": "key-pair-generator.js",
   "scripts": {
     "test": "mocha --timeout 100000",
-    "start": "node server.js"
+    "start": "key-pair-generator.js"
   },
   "dependencies": {
     "bcrypt-nodejs": "latest",
