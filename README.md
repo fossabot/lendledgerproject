@@ -32,6 +32,5 @@ npm start
 ## License
 
 
-## Credits
-
--
+## Build Status
+[![Build Status](http://54.186.214.215:8087/job/lendledgerproject/badge/icon)](http://54.186.214.215:8087/job/lendledgerproject)
