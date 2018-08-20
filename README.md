@@ -34,3 +34,9 @@ npm start
 
 ## Build Status
 [![Build Status](http://54.186.214.215:8087/job/lendledgerproject/badge/icon)](http://54.186.214.215:8087/job/lendledgerproject)
+
+[![npm](https://img.shields.io/npm/v/robinhood.svg?style=flat-square)](http://54.186.214.215:8087/job/lendledgerproject)
+[![David](https://img.shields.io/david/aurbano/Robinhood-Node.svg?style=flat-square)](http://54.186.214.215:8087/job/lendledgerproject)
+[![npm](https://img.shields.io/npm/dm/robinhood.svg)](http://54.186.214.215:8087/job/lendledgerproject)
+[![Coverage Status](https://coveralls.io/repos/github/aurbano/robinhood-node/badge.svg?branch=master)](http://54.186.214.215:8087/job/lendledgerproject)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Faurbano%2Frobinhood-node.svg?type=shield)](http://54.186.214.215:8087/job/lendledgerproject)
